@@ -34,17 +34,17 @@
 
 | 相关技术 | 相关资料 | 方法 |
 | --- | --- | --- |
-| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | [[README]](./NLP/README.md)`待更新...` |
-| PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待更新...` |
-| 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待更新...` | 
-| 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待更新...` |
+| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | [[README]](./NLP/README.md) |
+| PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待添加...` |
+| 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待添加...` | 
+| 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待添加...` |
 | 规则:模板多样化 | | | 
 | Web端实现 | Flask | | 
 
 ## 使用方法
 1. 安装相关环境
-    * requirement `待更新...`
-    * docker镜像 `待更新...`
+    * requirement `待添加...`
+    * docker镜像 `待添加...`
     
 2. 本地端部署
     * 在[WEB](./WEB)目录下运行 ```flask run```
