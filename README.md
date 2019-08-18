@@ -5,41 +5,41 @@
 1. 第一周为理论实践课程
     * 文件[课程表](media/%E8%AF%BE%E7%A8%8B%E8%A1%A8.pdf)是广州站的，其他地区(北京、南京、上海)课程一样，授课方式不一样。
     * 并且我们为这一周做下了[思维导图](./media/mindmap)，既可供deecamp学员查询也可为爱好者扩展知识。
-<img src="media/%E5%AF%BC%E5%9B%BE%E5%BD%92%E6%A1%A3.png" width="500" align=center />
+    ![海报](media/%E5%AF%BC%E5%9B%BE%E5%BD%92%E6%A1%A3.png)
 
-1. 第二周到第四周项目实战
+2. 第二周到第四周项目实战
     * 项目海报展示
-![海报](media/%E6%B5%B7%E6%8A%A5.png)
+    ![海报](media/%E6%B5%B7%E6%8A%A5.png)
 
     
 
 ## 项目介绍
 1. 效果
     * wen端呈现
-![网页展示](media/%E7%BD%91%E9%A1%B5%E5%B1%95%E7%A4%BA-1.png)
+    ![网页展示](media/%E7%BD%91%E9%A1%B5%E5%B1%95%E7%A4%BA-1.png)
 
     * 效果
-<img src="media/%E6%95%88%E6%9E%9C1.png" width="500" hegiht="313" align=center />
+    ![网页展示](media/%E6%95%88%E6%9E%9C1.png)
 
-1. 与传统方法的对比
+2. 与传统方法的对比
 
-| 传统生成海报的不足 | 本项目的思考方法 |
-| --- | --- |
-| 素材固定：由内部限定的素材组合，含义抽象 | 素材多样化 用户自定义上传图片或者文字指定素材 | 
-|  风格固定：单个背景替换，只能简单支持更换颜色| 风格多样化 支持对同一张海报进行多风格的转换 | 
-|  模板固定：无法自己增加logo或者调整文本框的位置 | 模板多样化 支持多种文字和图片的排版样式 | 
-|  | 
+    | 传统生成海报的不足 | 本项目的思考方法 |
+    | --- | --- |
+    | 素材固定：由内部限定的素材组合，含义抽象 | 素材多样化 用户自定义上传图片或者文字指定素材 | 
+    |  风格固定：单个背景替换，只能简单支持更换颜色| 风格多样化 支持对同一张海报进行多风格的转换 | 
+    |  模板固定：无法自己增加logo或者调整文本框的位置 | 模板多样化 支持多种文字和图片的排版样式 | 
+    |  | 
 
-1. 技术参考和技术指导
+3. 技术参考和技术指导
 
-| 相关技术 | 相关资料 | 方法 |
-| --- | --- | --- |
-| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | [[README]](./NLP/README.md) |
-| PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待添加...` |
-| 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待添加...` | 
-| 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待添加...` |
-| 规则:模板多样化 | | | 
-| Web端实现 | Flask | | 
+    | 相关技术 | 相关资料 | 方法 |
+    | --- | --- | --- |
+    | BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | [[README]](./NLP/README.md) |
+    | PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待添加...` |
+    | 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待添加...` | 
+    | 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待添加...` |
+    | 规则:模板多样化 | | | 
+    | Web端实现 | Flask | | 
 
 ## 使用方法
 1. 安装相关环境
