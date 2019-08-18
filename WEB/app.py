@@ -21,7 +21,7 @@ app.config["SEND_FILE_MAX_AGE_DEFAULT"] = timedelta(seconds=1)
 
 #-------------------- 外部库 -------------------------
 import sys
-sys.path.append('../NLP/ner-part/')
+sys.path.append('../NLP/')
 from ner_main import NER # 自动切换GPU
 # from ner_main import * 
 

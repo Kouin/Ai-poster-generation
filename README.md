@@ -34,7 +34,7 @@
 
 | 相关技术 | 相关资料 | 方法 |
 | --- | --- | --- |
-| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | `待更新...` |
+| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | [[README]](./NLP/README.md)`待更新...` |
 | PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待更新...` |
 | 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待更新...` | 
 | 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待更新...` |
