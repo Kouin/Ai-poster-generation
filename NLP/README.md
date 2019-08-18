@@ -1,7 +1,7 @@
 
 # 命名实体
 ### 目标 对车展文本中时间、地点、举办方
-可爬取新闻获得数据集，本项目的[数据集](./NLP/data/CarReport.rar) 
+可爬取新闻获得数据集，本项目的[数据集](./data/CarReport.rar) 
 ### 数据标注
 1. anaconda 新建新的虚拟环境: conda create -n envname
 2. 在环境中安装 python2.7 : conda install python=2.7.
