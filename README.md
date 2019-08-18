@@ -1,23 +1,27 @@
 # Ai poster generation
  2019deecamp夏令营广州站49组 <神来之笔——自动生成海报> 项目相关资料
-![合照](media/%E5%90%88%E7%85%A7.jpeg)
 
 ## 2019deecamp分为四周 
-第一周为理论实践课程
-文件[课程表](media/%E8%AF%BE%E7%A8%8B%E8%A1%A8.pdf)是广州站的，其他地区(北京、南京、上海)课程一样，授课方式不一样。
-[思维导图](./media/mindmap)献上，既可查询也可扩展有兴趣的开发者扩展横向知识[导图归档](media/%E5%AF%BC%E5%9B%BE%E5%BD%92%E6%A1%A3.png)
+1. 第一周为理论实践课程
+    * 文件[课程表](media/%E8%AF%BE%E7%A8%8B%E8%A1%A8.pdf)是广州站的，其他地区(北京、南京、上海)课程一样，授课方式不一样。
+    * 并且我们为这一周做下了[思维导图](./media/mindmap)，既可供deecamp学员查询也可为爱好者扩展知识。
+<img src="media/%E5%AF%BC%E5%9B%BE%E5%BD%92%E6%A1%A3.png" width="500" align=center />
 
-第二周到第四周项目实战
+1. 第二周到第四周项目实战
+    * 项目海报展示
 ![海报](media/%E6%B5%B7%E6%8A%A5.png)
 
-## 项目介绍
-1. WEB端呈现
-![网页展示](media/%E7%BD%91%E9%A1%B5%E5%B1%95%E7%A4%BA-1.png)
-1. 效果
+    
 
+## 项目介绍
+1. 效果
+    * wen端呈现
+![网页展示](media/%E7%BD%91%E9%A1%B5%E5%B1%95%E7%A4%BA-1.png)
+
+    * 效果
 <img src="media/%E6%95%88%E6%9E%9C1.png" width="500" hegiht="313" align=center />
 
-3. 对比与参考
+1. 与传统方法的对比
 
 | 传统生成海报的不足 | 本项目的思考方法 |
 | --- | --- |
@@ -26,23 +30,26 @@
 |  模板固定：无法自己增加logo或者调整文本框的位置 | 模板多样化 支持多种文字和图片的排版样式 | 
 |  | 
 
-| 相关技术 | 相关资料 |
-| --- | --- |
-| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) |
-| PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) |
-| 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) |
-| 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) |
-| 规则:模板多样化 | |
-| Web端实现 | Flask |
+1. 技术参考和技术指导
+
+| 相关技术 | 相关资料 | 方法 |
+| --- | --- | --- |
+| BERT命名实体识别 | [[论文链接]](https://arxiv.org/abs/1810.04805) | `待更新...` |
+| PoolNet抠图 | [[论文链接]](https://arxiv.org/abs/1904.09569) | `待更新...` |
+| 风格迁移 | [[论文链接]](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) | `待更新...` | 
+| 超分辨率 | [[论文链接]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) | `待更新...` |
+| 规则:模板多样化 | | | 
+| Web端实现 | Flask | | 
 
 ## 使用方法
 1. 安装相关环境
-    * requirement...
-    * 镜像...
+    * requirement `待更新...`
+    * docker镜像 `待更新...`
     
 2. 本地端部署
     * 在[WEB](./WEB)目录下运行 ```flask run```
     * 打开**http://127.0.0.1:5000**网址
+    
 3. 服务端部署
     * 打开80端口后在[WEB](./WEB)目录下运行```python app.py```
     * 打开**xxx.xxx.xxx.xxx**公网网址
